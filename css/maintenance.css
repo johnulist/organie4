@@ -1,0 +1,151 @@
+/*********************************************************************
+					Maintenance Page Styles
+**********************************************************************/
+body {
+  background-color: #fff; margin:0;}
+
+#maintenance {
+  margin: 50px 0 0 0;
+  background-color: #fff;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
+  @media (min-width: 1200px) {
+    #maintenance {
+      margin: 126px 0 0 0;
+      padding: 50px; } }
+  #maintenance .logo {
+    margin: 0 0 31px 0;
+    text-align: center; }
+  #maintenance h1 {
+    font: 24px "Open Sans", sans-serif;
+    color: #333;
+    padding: 0 0 14px 0;
+    margin: 0 0 19px 0; }
+  #maintenance #message {
+    font: 14px "Open Sans", sans-serif;
+    padding: 0 0 0 18px;
+    color: #555454;
+    text-align: center; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.container {
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+}
+/*# sourceMappingURL=maintenance.css.map */
+.dor-maintenance-page h1 {
+    background: rgba(0, 0, 0, 0) url("../img/dorado/contact/bg-title-contact.png") no-repeat scroll center center;
+    font-family: "Playfair Display",serif;
+    font-size: 56px;
+    letter-spacing: 0.1em;
+    padding: 30px 0;
+}
+.dor-maintenance-page{padding-top: 50px;}
+#daily-countdown-time .item-time {
+    display: inline-block;font-family: "Playfair Display",serif;
+}
+#daily-countdown-time .item-time span {
+    display: block;
+    text-align: center;
+    color: #696969;
+}
+#daily-countdown-time .item-time span.dw-time {
+    color: #8eb35a;
+    font-size: 85px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 0 30px 10px;
+    position: relative;
+}
+#daily-countdown-time .item-time span.dw-time::before {
+    content: ":";
+    font-size: 25px;
+    position: absolute;
+    right: -11px;
+    top: 58px;
+}
+#daily-countdown-time .item-time:last-child span.dw-time::before{content: "";}
+#daily-countdown-time .item-time span.dw-txt{
+  font-style: italic;letter-spacing: 0.1em;font-size: 17px;
+}
+#newsletter-input {
+    background: #f4f1e3 none repeat scroll 0 0;
+    border: medium none;
+    margin-bottom: 15px;
+    max-width: 90%;
+    padding: 15px 10px;
+    text-align: center;
+    width: 560px;
+}
+.block_newsletter .form-group {
+    text-align: center;
+}
+#dorSubmitNewsletter {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #8eb35a;
+    border-radius: 35px;
+    clear: both;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    margin: 15px auto 0;
+    padding: 12px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.block_newsletter {
+    padding-top: 90px;
+}
+
+.dor-maintenance-page{position: relative;}
+.dor-maintenance-page::after {
+    background-image: url("../img/dorado/bg-1.png");
+    bottom: -120px;
+    content: "";
+    height: 797px;
+    left: 0;
+    position: absolute;
+    width: 249px;
+    z-index: 1;
+}
+.dor-maintenance-page::before {
+    background-image: url("../img/dorado/bg-2.png");
+    top: -148px;
+    content: "";
+    height: 1090px;
+    right: 0;
+    position: absolute;
+    width: 242px;
+    z-index: 1;
+}
+
+@media (max-width: 670px) {
+  #daily-countdown-time .item-time span.dw-time {font-size: 50px;padding: 0 22px 10px;}
+  #daily-countdown-time .item-time span.dw-time::before {
+      font-size: 25px;
+      right: -11px;
+      top: 25px;
+  }
+  .dor-maintenance-page::after, .dor-maintenance-page::before{display: none;}
+}
+@media (max-width: 450px) {
+  #daily-countdown-time .item-time span.dw-time {font-size: 30px;padding: 0 20px 10px;}
+  #daily-countdown-time .item-time span.dw-time::before {
+      font-size: 25px;
+      right: -11px;
+      top: 25px;
+  }
+  .dor-maintenance-page h1{font-size: 40px;}
+  #daily-countdown-time .item-time span.dw-time::before {
+      font-size: 19px;
+      right: -7px;
+      top: 11px;
+  }
+  #daily-countdown-time .item-time span.dw-txt{font-size: 16px;}
+}
